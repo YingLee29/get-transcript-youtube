@@ -1,0 +1,13 @@
+# Server AI (faster-whisper) cho extension YouTube → Văn bản
+#
+# Cài:  pip install -r requirements.txt
+# Chạy: python app.py
+#
+# Khuyến nghị Python 3.10 – 3.12 và có ffmpeg trong PATH.
+
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29
+yt-dlp>=2025.1.15
+faster-whisper>=1.1.0
+# PyAV 16+ bỏ tham số `metadata_errors` mà faster-whisper vẫn dùng -> phải <16
+av>=11,<16

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model / cache tải về
+*.bin
+*.pt
+.cache/
+
+# File tạm
+*.part
+*.webm
+*.m4a
+*.mp3
+*.wav
+transcript.txt
+transcript.srt
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
